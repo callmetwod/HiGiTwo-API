@@ -1,6 +1,5 @@
 import {DataTypes} from "sequelize";
 import {sequelize as database} from "../database/connection.js";
-import { FOREIGNKEYS } from "sequelize/types/query-types.js";
 
 export const UserlistEntity = database.define("userlist", {
     id:{
